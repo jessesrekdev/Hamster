@@ -15,7 +15,7 @@
         }
         .telegram-button {
             position: absolute;
-            bottom: 6em;
+            bottom: 6.2em;
             left: 50%;
             transform: translateX(-50%);
             padding: 15px 30px;
