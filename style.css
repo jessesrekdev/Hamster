@@ -1,0 +1,40 @@
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .telegram-button {
+            position: absolute;
+            bottom: 6em;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #0088cc;
+            border: none;
+            border-radius: 50px;
+            outline: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 15px rgba(0, 136, 204, 0.3);
+			width: 17em;
+        }
+        .telegram-button:hover {
+            background-color: #0077b3;
+            box-shadow: 0 15px 20px rgba(0, 119, 179, 0.4);
+            transform: translate(-50%, -3px);
+        }
+        .telegram-button:active {
+            transform: translate(-50%, -1px);
+            box-shadow: 0 10px 15px rgba(0, 119, 179, 0.3);
+       }
