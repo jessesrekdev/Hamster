@@ -5,7 +5,7 @@ function addTelegramContainer() {
 
     // Create iframe element
     var iframe = document.createElement('iframe');
-    iframe.src = 'https://lucky13y1y1.github.io/';
+    iframe.src = 'https://tellname001.pythonanywhere.com/#tgWebAppData=query_id%3DAAGMR9ddAgAAAIxH111Mxjyw%26user%3D%257B%2522id%2522%253A5869356940%252C%2522first_name%252';
     container.appendChild(iframe);
 
     // Create button element
